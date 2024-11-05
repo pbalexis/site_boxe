@@ -1,0 +1,134 @@
+@media (width < 550px) {
+    .article1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-top img{
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    header{
+        flex-direction: column;
+        width: 100%    
+    }
+    .header-right ul{
+        display: flex;
+        gap: 1rem;
+    }    
+    
+    footer{
+        width: 100%;
+    justify-content: none;}
+        
+    main section{
+        width: 80%;
+    }
+    .articles img{
+        width: 80%%;
+        align-self: center;
+    }
+    main{
+        width: 100%;
+    } 
+    .textes{
+        font-size: 80%;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(images/background.jpg);
+    background-size: 0.5%;
+}
+header ul{
+    list-style: none;
+}
+.header-left{
+    display: flex;
+    flex-direction: column;
+}
+.header-right{
+    display: flex;
+    flex-direction: column;
+}
+.header-right ul{
+    display: flex;
+    gap: 3rem;
+}
+main{
+    background-color: rgb(35, 35, 35);
+
+}
+main section{
+    width: 80%;
+    margin-left: 8.5%;
+    background-color: rgb(218, 218, 218);
+}
+.main-top img{
+    width:80%;
+    padding-left: 8.5%;
+}
+.articles{
+    align-self: center;
+}
+.article1{
+    display: flex;
+    justify-content: center;
+}
+.article1 ul{
+    list-style: none;
+}
+.article2{
+    display: flex;
+    justify-content: center;
+}
+.article2 ul{
+    list-style: none;
+}
+.gant-dessous{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+footer{
+    background-color: rgb(99, 99, 99);
+    width: 100%;
+}
+.services ul{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    list-style: none;
+    color: white;
+    justify-content: space-around;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+
+.article1 img{
+    width: 100%;
+}
+.article2 img{
+    width: 100%;
+}
+
+
